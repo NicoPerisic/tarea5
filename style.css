@@ -1,0 +1,86 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+      background-color: #FEFAFE;
+  }
+
+#imgLogo{
+  margin-right: 340px;
+
+  }
+  
+.container-title {
+    color: #8437a9;
+    font-size: xx-large;
+  }
+  
+  h6{
+      text-align: center;
+  }
+
+.head-title{
+  font-size: 4em;
+  color: #7e2c62;
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 15px;
+    height: 3rem;
+    background-color: #decbe8;
+    color: rgb(255, 125, 194);
+  }
+
+  .navbar button {
+    float: left;
+    color: #7e2c62;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+  margin-right: 20px;
+}
+  
+  .navbar button:hover {
+    background-color: #decbe8;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .navbar button.active {
+    background-color: rgb(169, 58, 189);
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  
+  .card{
+      display: flex;
+      margin: 2em;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid;
+      border-radius: 2em;
+      width: 100px;
+      height: 100px;
+      color: rgb(255, 125, 194);
+      box-shadow: rgb(97, 39, 70) 0.5em 0.5em;
+  }
+
+.foot {
+    font-size: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(169, 58, 189);
+  }
